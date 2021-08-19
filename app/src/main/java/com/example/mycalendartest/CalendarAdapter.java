@@ -16,7 +16,7 @@ import java.util.ArrayList;
 class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder> {
     private final ArrayList<String> daysOfMonth;
     private final OnItemListener onItemListener;
-    private LocalDate nowDate;
+
     public String pageMonth;
 
     public CalendarAdapter(ArrayList<String> daysOfMonth, OnItemListener onItemListener) {
@@ -41,6 +41,7 @@ class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder> {
 
         //控制indicator
         final String date = daysOfMonth.get(position);
+        LocalDate nowDate;
         nowDate = LocalDate.now();
         String currentDay,currentMonth;
         DateTimeFormatter nowDay = DateTimeFormatter.ofPattern("dd");
