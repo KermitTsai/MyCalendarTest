@@ -52,7 +52,7 @@ class CalendarAdapter extends RecyclerView.Adapter<CalendarViewHolder> {
         pageMonth =selectedDate.format(floatingMonth);
         if (pageMonth.equals(currentMonth))
             if (date.equals(currentDay))
-                holder.parentView.setBackgroundResource(R.drawable.indicator);
+                holder.parentView.setBackgroundResource(R.drawable.indicatortest);
 
     }
 
