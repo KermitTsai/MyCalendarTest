@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCalendarTest</string>
+    <string name="hamburger" translatable="false"><![CDATA[≡]]></string>
+    <string name="plus">+</string>
+    <string name="pre"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+</resources>
